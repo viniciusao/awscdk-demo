@@ -1,0 +1,5 @@
+# PDM trash
+
+__pypackages__
+.pdm.toml
+pdm.lock

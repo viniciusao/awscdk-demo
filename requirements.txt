@@ -1,0 +1,6 @@
+aws-cdk.aws-apigatewayv2==1.135
+aws-cdk.aws-apigatewayv2-integrations==1.135
+aws-cdk.aws-dynamodb==1.135
+aws-cdk.aws-lambda-python==1.135
+chalice[cdk]==1.26
+parsel==1.6

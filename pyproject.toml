@@ -1,0 +1,28 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Vinícius Aguiar", email = "viniciusoa@protonmail.com"},
+]
+dependencies = [
+    "aws-cdk.aws-lambda-python~=1.135",
+    "aws-cdk.aws-apigatewayv2~=1.135",
+    "aws-cdk.aws-apigatewayv2-integrations~=1.135",
+    "parsel~=1.6",
+    "chalice[cdk]~=1.26",
+    "aws-cdk.aws-dynamodb~=1.135",
+]
+requires-python = ">=3.8"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
