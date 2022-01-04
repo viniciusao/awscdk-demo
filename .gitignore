@@ -3,3 +3,7 @@
 __pypackages__
 .pdm.toml
 pdm.lock
+
+# Py CHARM TRASH
+.idea
+__pycache__
