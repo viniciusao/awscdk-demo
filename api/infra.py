@@ -1,12 +1,9 @@
 import pathlib
 
 from aws_cdk import aws_lambda, core
-from aws_cdk.aws_apigatewayv2 import HttpApi, \
-    HttpMethod
-from aws_cdk.aws_apigatewayv2_integrations import \
-    HttpLambdaIntegration
-from aws_cdk.aws_lambda_python import \
-    PythonFunction
+from aws_cdk.aws_apigatewayv2 import HttpApi, HttpMethod
+from aws_cdk.aws_apigatewayv2_integrations import HttpLambdaIntegration
+from aws_cdk.aws_lambda_python import PythonFunction
 from chalice.cdk import Chalice
 from aws_cdk import aws_iam as iam
 

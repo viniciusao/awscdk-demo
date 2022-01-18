@@ -3,11 +3,11 @@ from typing import List, Optional, Tuple
 from unicodedata import normalize
 from urllib.parse import unquote
 
+from chalice import Chalice
+import parsel
 import requests
 
-from chalice import Chalice
 from chalicelib import init_chars_repository
-import parsel
 
 app = Chalice(app_name='tibiawebscraping')
 DBB = init_chars_repository()
